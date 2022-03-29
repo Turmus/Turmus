@@ -1,0 +1,30 @@
+directory list from top makefile:
+DIRS = \
+    cal_rfc calendar    \
+        auth enclib daemon \
+        cgi communication db debug child cust publish encode encrypt files flist \
+        gssi keyval languages login logs mime misc os records string sendmail \
+        safemail time usersetup mailbox bulletin gad integrity zohar register \
+        spell dropbox platforms pki certd bcase massmail smremote \
+        creditcard backoffice chat album managebill \
+        buff_old mail_transmit smtpd otp \
+        jotter
+#       teleid dhkey md5 dekel
+
+checked ok, some with warnings:
+
+        cal_rfc calendar ,
+        auth enclib daemon ,
+        cgi communication db debug child cust publish encode flist,
+        gssi keyval languages login logs mime misc os records string ,
+        safemail time usersetup,
+late 06-mar-2022
+        mailbox bulletin gad integrity zohar register,
+07-mar-2022
+        dropbox, platforms, certd, bcase, smremote, creditcard, backoffice, chat, album,
+        buff_old, mail_transmit, smtpd, otp, jotter, teleid, dhkey,
+
+dirs with issues:
+ encrypt, files, sendmail,
+ spell,  pki,  massmail, managebill,
+ 
