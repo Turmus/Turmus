@@ -25,8 +25,8 @@ late 06-mar-2022
         buff_old, mail_transmit, smtpd, otp, jotter, teleid, dhkey,
 
 30-mar-2022
-        files, pki, massmail,
+        files, pki, massmail, managebill,
 
 dirs with issues:
  encrypt, sendmail,
- spell, managebill,
+ spell, 
