@@ -24,7 +24,9 @@ late 06-mar-2022
         dropbox, platforms, certd, bcase, smremote, creditcard, backoffice, chat, album,
         buff_old, mail_transmit, smtpd, otp, jotter, teleid, dhkey,
 
+30-mar-2022
+        files, pki, massmail,
+
 dirs with issues:
- encrypt, files, sendmail,
- spell,  pki,  massmail, managebill,
- 
+ encrypt, sendmail,
+ spell, managebill,
